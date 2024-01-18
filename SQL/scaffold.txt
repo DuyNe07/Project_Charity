@@ -1,0 +1,2 @@
+dotnet ef dbcontext scaffold "Name=ConnectionStrings:Charity" Microsoft.EntityFrameworkCore.SqlServer -o Models
+dotnet user-secrets set ConnectionStrings:Charity "Data Source=DUY_NE\DUYNE,1433;Initial Catalog=Charity;User ID=sa;Password=123456;TrustServerCertificate=true"
