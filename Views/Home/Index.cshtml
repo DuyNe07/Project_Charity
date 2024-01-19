@@ -1,8 +1,409 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@page
+@{
+    Layout = "_MainLayout";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main>
+    <section class="hero-section hero-section-full-height">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-12 p-0">
+                    <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="~/images/slide/pic1.jpg" class="carousel-image img-fluid" alt="..." />
+
+                                <div class="carousel-caption d-flex flex-column justify-content-end">
+                                    <h1>Tham gia nào</h1>
+
+                                    <p>
+                                        Lan toả sự yêu thương này
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="~/images/slide/pic2.jpg" class="carousel-image img-fluid" alt="..." />
+
+                                <div class="carousel-caption d-flex flex-column justify-content-end">
+                                    <h1>Phi lợi nhuận</h1>
+
+                                    <p>
+                                        Cho đi để nhận lại
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="~/images/slide/pic3.jpg" class="carousel-image img-fluid" alt="..." />
+
+                                <div class="carousel-caption d-flex flex-column justify-content-end">
+                                    <h1>Sẻ chia</h1>
+
+                                    <p>
+                                        Hãy lan toả nó đến mọi người
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#hero-slide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding section-bg" id="section_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                    <img src="~/images/about.jpg" class="custom-text-box-image img-fluid" alt="" />
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="custom-text-box">
+                        <h2 class="mb-2">Về chúng tôi</h2>
+
+                        <h5 class="mb-3">
+                            Kind Heart Charity, Tổ chức phi lợi nhuận
+                        </h5>
+
+                        <p class="mb-0">
+                            Đời sống xã hội ngày càng được nâng cao cũng là lúc người ta phát sinh nhu cầu muốn được
+                            chia sẻ, được đóng góp cho xã hội, giúp đỡ những cộng đồng yếu thế, những hoàn cảnh khó
+                            khăn. Làm việc thiện không chỉ là sự cho đi, sự sẻ chia giá trị mà còn giúp mỗi người nhận
+                            về niềm vui, cảm xúc tích cực, ý nghĩa.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="custom-text-box mb-lg-0">
+                                <h5 class="mb-3">Mục tiêu chung</h5>
+
+                                <p>
+                                    Khi thiện nguyện là nguồn hạnh phúc
+                                </p>
+
+                                <ul class="custom-list mt-2">
+                                    <li class="custom-list-item d-flex">
+                                        <i class="bi-check custom-text-box-icon me-2"></i>
+                                        Tổ chức quyên góp
+                                    </li>
+
+                                    <li class="custom-list-item d-flex">
+                                        <i class="bi-check custom-text-box-icon me-2"></i>
+                                        Kết nối các tình nguyện viên
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0">
+                                <div class="counter-thumb">
+                                    <div class="d-flex">
+                                        <span class="counter-number" data-from="1" data-to="2009"
+                                            data-speed="1000"></span>
+                                        <span class="counter-number-text"></span>
+                                    </div>
+
+                                    <span class="counter-text">Founded</span>
+                                </div>
+
+                                <div class="counter-thumb mt-4">
+                                    <div class="d-flex">
+                                        <span class="counter-number" data-from="1" data-to="120"
+                                            data-speed="1000"></span>
+                                        <span class="counter-number-text">B</span>
+                                    </div>
+
+                                    <span class="counter-text">Donations</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center mb-4">
+                    <h2>Chiến dịch tình nguyện</h2>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                    <div class="custom-block-wrap">
+                        <img src="images/causes/group-african-kids-paying-attention-class.jpg"
+                            class="custom-block-image img-fluid" alt="" />
+
+                        <div class="custom-block">
+                            <div class="custom-block-body">
+                                <h5 class="mb-3">Children Education</h5>
+
+                                <p>
+                                    Lorem Ipsum dolor sit amet,
+                                    consectetur adipsicing kengan omeg
+                                    kohm tokito
+                                </p>
+
+                                <div class="progress mt-4">
+                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                                <div class="d-flex align-items-center my-2">
+                                    <p class="mb-0">
+                                        <strong>Raised:</strong>
+                                        $18,500
+                                    </p>
+
+                                    <p class="ms-auto mb-0">
+                                        <strong>Goal:</strong>
+                                        $32,000
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a href="donate.html" class="custom-btn btn">Donate now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                    <div class="custom-block-wrap">
+                        <img src="images/causes/poor-child-landfill-looks-forward-with-hope.jpg"
+                            class="custom-block-image img-fluid" alt="" />
+
+                        <div class="custom-block">
+                            <div class="custom-block-body">
+                                <h5 class="mb-3">
+                                    Poverty Development
+                                </h5>
+
+                                <p>
+                                    Sed leo nisl, posuere at molestie
+                                    ac, suscipit auctor mauris. Etiam
+                                    quis metus tempor
+                                </p>
+
+                                <div class="progress mt-4">
+                                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                                <div class="d-flex align-items-center my-2">
+                                    <p class="mb-0">
+                                        <strong>Raised:</strong>
+                                        $27,600
+                                    </p>
+
+                                    <p class="ms-auto mb-0">
+                                        <strong>Goal:</strong>
+                                        $60,000
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a href="donate.html" class="custom-btn btn">Donate now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="custom-block-wrap">
+                        <img src="images/causes/african-woman-pouring-water-recipient-outdoors.jpg"
+                            class="custom-block-image img-fluid" alt="" />
+
+                        <div class="custom-block">
+                            <div class="custom-block-body">
+                                <h5 class="mb-3">
+                                    Supply drinking water
+                                </h5>
+
+                                <p>
+                                    Orci varius natoque penatibus et
+                                    magnis dis parturient montes,
+                                    nascetur ridiculus
+                                </p>
+
+                                <div class="progress mt-4">
+                                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="100"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                                <div class="d-flex align-items-center my-2">
+                                    <p class="mb-0">
+                                        <strong>Raised:</strong>
+                                        $84,600
+                                    </p>
+
+                                    <p class="ms-auto mb-0">
+                                        <strong>Goal:</strong>
+                                        $100,000
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a href="donate.html" class="custom-btn btn">Donate now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <a class="nav-link custom-btn custom-border-btn btn mt-5 d-inline-block mx-auto" href="donate.html">Hiển
+                    thị thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section section-padding section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 mx-auto">
+                    <h2 class="mb-lg-3">Chia sẻ từ người tham gia</h2>
+
+                    <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption">
+                                    <h4 class="carousel-title">
+                                        Lorem Ipsum dolor sit amet,
+                                        consectetur adipsicing kengan
+                                        omeg kohm tokito charity theme
+                                    </h4>
+
+                                    <small class="carousel-name"><span class="carousel-name-title">Maria</span>,
+                                        Boss</small>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <h4 class="carousel-title">
+                                        Sed leo nisl, posuere at
+                                        molestie ac, suscipit auctor
+                                        mauris quis metus tempor orci
+                                    </h4>
+
+                                    <small class="carousel-name"><span class="carousel-name-title">Thomas</span>,
+                                        Partner</small>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <h4 class="carousel-title">
+                                        Lorem Ipsum dolor sit amet,
+                                        consectetur adipsicing kengan
+                                        omeg kohm tokito charity theme
+                                    </h4>
+
+                                    <small class="carousel-name"><span class="carousel-name-title">Jane</span>,
+                                        Advisor</small>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <h4 class="carousel-title">
+                                        Sed leo nisl, posuere at
+                                        molestie ac, suscipit auctor
+                                        mauris quis metus tempor orci
+                                    </h4>
+
+                                    <small class="carousel-name"><span class="carousel-name-title">Bob</span>,
+                                        Entreprenuer</small>
+                                </div>
+                            </div>
+
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
+                                    <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                                        class="img-fluid rounded-circle avatar-image" alt="avatar" />
+                                </li>
+
+                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
+                                    <img src="images/avatar/portrait-young-redhead-bearded-male.jpg"
+                                        class="img-fluid rounded-circle avatar-image" alt="avatar" />
+                                </li>
+
+                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
+                                    <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg"
+                                        class="img-fluid rounded-circle avatar-image" alt="avatar" />
+                                </li>
+
+                                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
+                                    <img src="images/avatar/studio-portrait-emotional-happy-funny.jpg"
+                                        class="img-fluid rounded-circle avatar-image" alt="avatar" />
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @*
+    <section class="about-section section-padding">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6 col-md-5 col-12">
+    <img src="~/images/admin.png" class="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt="" />
+    </div>
+
+    <div class="col-lg-5 col-md-7 col-12">
+    <div class="custom-text-block">
+    <h2 class="mb-0">Lương Vũ Đình Duy</h2>
+
+    <p class="text-muted mb-lg-4 mb-md-4">
+    Co-Founding Partner
+    </p>
+
+    <p>
+    Chúng tôi hướng tới việc tạo ra 1 nơi hoàn hảo để kêu gọi quyên góp cũng như kết nối các
+    chiến dịch tình nguyện với tình nguyện viên.
+    </p>
+
+    <p>
+    Vì 1 xã hội tràn đầy tình yêu thương, hãy tham gia cùng chúng tôi để lan toả yêu thương.
+    </p>
+
+    <ul class="social-icon">
+    <li class="social-icon-item">
+    <a href="https://www.facebook.com/luong.duy.1207/"
+    class="social-icon-link bi-facebook"></a>
+    </li>
+
+    <li class="social-icon-item">
+    <a href="https://www.instagram.com/duy_ne_/" class="social-icon-link bi-instagram"></a>
+    </li>
+
+    <li class="social-icon-item">
+    <a href="https://github.com/DuyNe07" class="social-icon-link bi-github"></a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section> *@
+
+</main>

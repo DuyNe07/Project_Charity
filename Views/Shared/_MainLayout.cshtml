@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Language" content="vi" />
+
+    <meta name="description" content="Project by Duyne" />
+    <meta name="author" content="Luong Vu Dinh Duy" />
+
+
+    <title>Kind Heart Charity</title>
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon">
+
+    <!-- CSS FILES -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/css/bootstrap-icons.css" rel="stylesheet" />
+
+    <link href="~/css/templatemo-kind-heart-charity.css" rel="stylesheet" />
+
+</head>
+
+<body id="section_1">
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <i class="bi-geo-alt me-2"></i>
+                        Số 1 Võ Văn Ngân
+                    </p>
+
+                    <p class="d-flex mb-0">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:info@company.com">
+                            luongvudinhduy2003@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                    <ul class="social-icon">
+                        <li class="social-icon-item">
+                            <a href="https://www.facebook.com/luong.duy.1207/" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://www.instagram.com/duy_ne_/" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="https://github.com/DuyNe07" class="social-icon-link bi-github"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity" />
+                <span>
+                    Kind Heart Charity
+                    <small>Lan toả yêu thương</small>
+
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#top">Trang chủ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_2">Về chúng tôi</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_3">Chiến dịch</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_4">Tình nguyện viên</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link click-scroll dropdown-toggle" href="#section_5"
+                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">News</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="news.html">News Listing</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="news-detail.html">News Detail</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_6">Liên hệ</a>
+                    </li>
+
+                    <li class="nav-item ms-3">
+                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Đăng nhập</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4">
+                    <img src="images/logo.png" class="logo img-fluid" alt="" />
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <h5 class="site-footer-title mb-3">Liên kết nhanh</h5>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Câu chuyện</a>
+                        </li>
+
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Chiến dịch</a>
+                        </li>
+
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Causes</a>
+                        </li>
+
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Đăng kí tình nguyện viên</a>
+                        </li>
+
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Partner with us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                    <h5 class="site-footer-title mb-3">
+                        Thông tin liên lạc
+                    </h5>
+
+                    <p class="text-white d-flex mb-2">
+                        <i class="bi-telephone me-2"></i>
+
+                        <a href="tel: 0329 341 734" class="site-footer-link">
+                            0329-341-734
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <i class="bi-envelope me-2"></i>
+
+                        <a href="mailto:luongvudinhduy@gmail.com" class="site-footer-link">
+                            luongvudinhduy@gmail.com
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex mt-3">
+                        <i class="bi-geo-alt me-2"></i>
+                        Số 1 Võ Văn Ngân, Thủ Đức, TP.HCM
+                    </p>
+
+                    <a href="#" class="custom-btn btn mt-3">Chỉ đường</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <p class="copyright-text mb-0">
+                            Copyright © 2036
+                            <a href="#">Kind Heart</a> Charity Org. Design:
+                            <a href="https://templatemo.com" target="_blank">TemplateMo</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                        <ul class="social-icon">
+                            <li class="social-icon-item">
+                                <a href="https://www.facebook.com/luong.duy.1207/"
+                                    class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="https://www.instagram.com/duy_ne_/" class="social-icon-link bi-instagram"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="https://github.com/DuyNe07" class="social-icon-link bi-github"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.sticky.js"></script>
+    <script src="~/js/click-scroll.js"></script>
+    <script src="~/js/counter.js"></script>
+    <script src="~/js/custom.js"></script>
+</body>
+
+</html>
